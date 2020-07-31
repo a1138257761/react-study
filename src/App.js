@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 
 // import Menus from './pages/Menus/Menus.jsx';  // 生命周期以及父子组件改变props值
-import SetStateDemo from './pages/SetStateDemo';
+// import SetStateDemo from './pages/SetStateDemo';
+import IfDemo from './pages/IfDemo/IfDemo';
 
 class App extends React.Component {
   constructor() {
@@ -35,7 +36,11 @@ class App extends React.Component {
         {/* <Menus title={ this.state.title } changeWord={ this.changeTitles } />
         <button onClick={ this.changeTitle }>修改文本</button> */}
 
-        <SetStateDemo />
+        {/* setState是同步还是异步 */}
+        {/* <SetStateDemo /> */}
+
+        {/* 条件渲染 */}
+        <IfDemo />
         
       </div>
 
