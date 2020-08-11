@@ -4,7 +4,8 @@ import './App.css';
 
 // import Menus from './pages/Menus/Menus.jsx';  // 生命周期以及父子组件改变props值
 // import SetStateDemo from './pages/SetStateDemo';
-import IfDemo from './pages/IfDemo/IfDemo';
+// import IfDemo from './pages/IfDemo/IfDemo';
+import FormDemo from './pages/FormDemo/FormDemo';
 
 class App extends React.Component {
   constructor() {
@@ -40,8 +41,10 @@ class App extends React.Component {
         {/* <SetStateDemo /> */}
 
         {/* 条件渲染 */}
-        <IfDemo />
-        
+        {/* <IfDemo /> */}
+
+        {/* 表单受控组件 */}
+        <FormDemo/>
       </div>
 
     )
